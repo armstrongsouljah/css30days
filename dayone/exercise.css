@@ -1,0 +1,39 @@
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin:0 auto;
+    width:80vw;
+    height:70vh;
+    border: 2px solid rgba(122, 56,45, 0.5);
+    padding:9px;
+}
+h1.profile-name{
+    color:hotpink;
+    border-bottom: 5px dotted hotpink;
+}
+.job-title{
+    color:rgba(122, 56,67, 0.5);
+}
+
+ul{
+    background: #eee;
+    border: 5px solid purple;
+    padding: 19px;
+}
+
+.email-address{
+  color: green;
+}
+
+a#website{
+    color:red;
+}
+a#website:hover{
+ color:green;
+}
+
+#contact-info{
+    font-style: italic;
+}
