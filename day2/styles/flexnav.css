@@ -1,0 +1,30 @@
+body{
+    margin:0;
+}
+.flex-container{
+    display: flex;
+}
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 12px;
+    margin:12px;
+}
+.navbar{
+    background: #333;
+    padding: 13px;
+}
+.nav-menu{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-item{
+    flex: 1;
+}
+li, a{
+    text-decoration:none;
+    color: #f2f2f2;
+}
+a:hover{
+    color:orangered;
+}

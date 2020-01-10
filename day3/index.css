@@ -1,0 +1,55 @@
+body{
+    margin:0 auto;
+    width: 70vw;
+    background: slategrey;
+}
+.banner{
+    height:30vh;
+    background: #333;
+}
+input[type='email'], input[type='email']:focus{
+    border:none;
+    width:30vw;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+    padding:12px;
+}
+textarea, textarea:focus{
+    border:none;
+    outline: none;
+    padding: 12px;
+    border-bottom: 1px solid black;
+    width:30vw;
+}
+.contact-container{
+    display: flex;
+    height:40vh;
+}
+.contact-form{
+    width:50vw;
+    background: #fff;
+    padding:10px;
+}
+.contact-card{
+    width:40vw;
+    background: black;
+}
+.btn-success, .btn-success:active, .btn-success:focus{
+    width:14vw;
+    padding:7px;
+    outline:none;
+    border:none;
+    border-radius: 20px;
+    align-self: right;
+    background:orangered;
+    color:white;
+}
+.contact-card>h5{
+    color:orangered;
+    text-align: center;
+}
+.contact-card>p{
+    color:#fff;
+    padding:9px;
+}
